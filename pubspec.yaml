@@ -1,0 +1,51 @@
+name: flutter_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+  firebase_core: ^3.0.0
+  firebase_auth: ^5.0.0
+  cloud_firestore: ^5.0.0
+
+  flutter_svg: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/vectors/vector_1_x2.svg
+  - assets/vectors/vector_x2.svg
+  - assets/images/image_3.png
+  - assets/vectors/vector_4_x2.svg
+  - assets/images/image_2.png
+  - assets/images/image_1.png
+  - assets/vectors/vector_3_x2.svg
+  - assets/vectors/vector_5_x2.svg
+  - assets/images/web_development.png
+  - assets/images/data_science.png
+  - assets/images/iot.png
+  - assets/images/hr.png
+  - assets/images/cyber_security.png
+  - assets/images/app_developer.png
+  - assets/images/software_developer.png
+  - assets/images/uiux.png
+  - assets/images/business_development.png
+  - assets/images/full_stack_developer.png
+  - assets/images/digital_media_promoter.png
+  - assets/images/digital_marketing.png
+  - assets/images/content_writing.png
+  - assets/vectors/vector_2_x2.svg
+  - assets/images/process_associate.png
+
